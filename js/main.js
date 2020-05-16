@@ -1,4 +1,44 @@
+// Estudo de funções
 
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado novamente por clicar</b>";
+    console.log(document.getElementById("agradecimento"));
+    return alert("Obrigado por clicar")
+}
+
+function redirecionar(){
+    window.open("https://google.com");
+}
+
+function trocar(){
+    document.getElementById("mouse").innerHTML = "Obrigado por passar o mouse"
+    //alert("TCHARAMMMM")
+}
+
+function voltar(){
+    document.getElementById("mouse").innerHTML = "Passe o mouse aqui"
+    //alert("VOLTEIIII")
+}
+
+function load(){
+    alert("Página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+/*
+function clicou(){
+    alert("Obrigado por clicar");
+}*/
+
+
+/*function soma(n1, n2){
+    return n1 + n2
+};
+
+alert(soma(10, 15));*/
 
 
 //date and time
