@@ -1,3 +1,39 @@
+
+
+
+//date and time
+/*
+var d = new Date();
+alert(d.getMonth()+1);
+*/
+
+// for statement
+/*
+var count;
+for(count = 0; count <= 5; count++){
+    console.log(count);
+    alert(count);
+};*/
+
+// while statement
+/*
+var count = 0;
+while(count < 5){
+    console.log(count);
+    alert(count);
+    //count = count + 1
+    count++;
+}*/
+
+// if statement
+/*
+var idade = prompt("Qual a sua idade?")
+if (idade >= 18){
+    alert("maior de idade")
+}else{
+    alert("menor de idade")
+}*/
+
 //var nome = "Felipe Lopes";
 //var ano = "2020";
 //alert("Bem-vindo a página de " + nome + ".\n" + 
